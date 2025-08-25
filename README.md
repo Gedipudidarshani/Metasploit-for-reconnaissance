@@ -58,7 +58,7 @@ Following command is executed for scanning the systems on our local area network
 nmap -sT 192.168.1810/24 -p1-1000
 ```
 ### OUTPUT:
-
+![alt text](image3.png)
 **step4:**
 use the db-nmap command to scan and save the results into Metasploit's postgresql attached database. In that way, you can use those results in the exploitation stage later.
 
@@ -67,7 +67,7 @@ scan the targets with the command db_nmap as follows.
 db_nmap -sV -sC -p 3306 <target-ip>
 ```
 ### OUTPUT:
-
+![alt text](image4.png)
 Metasploit has a multitude of scanning modules built in. If we open another terminal, we can navigate to Metasploit's auxiliary modules and list all the scanner modules.
 ```
 cd /usr/share /metasploit-framework/modules/auxiliary
